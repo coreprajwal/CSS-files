@@ -1,0 +1,71 @@
+/* psuedo-class-selector: Symbol: (:)*/
+
+/* Types of Pseudo-class-selector:
+1. Dynamic P.C.S:
+       -first-child
+       -last-child
+       -nth-child
+       -first-of-type
+       -last-of-type
+       -nth-of-type
+2. Structural P.C.S:
+       -Hover
+       -Active
+       -focus
+*/
+
+/* first-child : checks position first, then checks if tag matches.*/
+.parent h1:first-child{
+background-color: red;
+}
+
+/* last-child: checks position first, then checks if tag matches. */
+.parent p:last-child{
+       background-color:purple;
+}
+
+/* nth-child: checks position first, then checks if tag matches. */
+.parent p:nth-child(3){
+       background-color:green;
+}
+
+/* first-of-type: first checks the type, then indexing happens within that type. */
+.parent p:first-of-type{
+       color: orange;
+}
+
+.parent h1:first-of-type{
+       color: aqua;
+}
+
+/* last-of-type: first checks the type, then indexing happens within that type. */
+.parent b:last-of-type{
+       color:Plum;
+}
+
+/* nth-of-type: first checks the type, then indexing happens within that type. */
+.parent p:nth-of-type(2){
+       color: chartreuse;
+}
+
+/* Dynamic Psuedo-class-selector */
+
+/* hover */
+/* 
+.parent h1:nth-child(2){
+       background-color: Pink;
+} */
+
+/* 1.hover */
+.parent h1:nth-child(2):hover{
+       background-color:pink;
+}
+
+/* 2. active */
+.parent p:last-child:active{
+       color:aqua;
+}
+/* 3. focus */
+.parent input:first-of-type:focus{
+       background-color:chartreuse;
+}

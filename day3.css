@@ -1,0 +1,61 @@
+/* combinatorial selector */
+
+/* 1. descendent selector [Symbol: (space)] */
+
+/* section h1{
+       background-color:aqua;
+} */
+
+/* 2. child selector [Symbol: (>)] */
+
+/* section>h1{
+       background-color:red;
+}
+
+aside>h1{
+       color: blue; ;
+} */
+
+
+/* 3. Adjascent selector: sibling selector [Symbol: (+)] */
+
+/* section p+p{
+       background-color: aqua;
+} */
+
+/* 4. General sibling selector: [Symbol: (~)] */
+
+/* section p~p{
+       background-color:purple;
+} */
+
+
+/* Psuedo element selector: symbol: (::) */
+
+/* 1. first-letter
+2. first-line
+3. before
+4. after
+5. marker
+6. selection */
+
+section p::first-letter{
+       color:red;
+       font-size:80px;
+}
+section p::first-line{
+       background-color: black;
+       color: white;
+}
+
+section p::before{
+       content:"😎😎"
+}
+section p::after{
+       content:"🙌";
+}
+
+li::marker{
+       color:red;
+}
+

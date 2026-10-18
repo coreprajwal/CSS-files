@@ -1,0 +1,70 @@
+/* DISPLAY PROPERTIES 
+- inline
+- block
+- inline-block
+- none
+- flex
+- grid
+*/
+
+/* Important interview questions:
+ absolute vs relative , display none vs visibility hidden 
+span vs div
+ semantic tag
+what is pattern attribute
+what is row span and col span
+what is utf-8
+explain structure of html
+what is alt attribute
+specificity in css
+*/
+
+/* h1{
+       height: 100px;
+       width: 200px;
+       background-color:yellow;
+       display: inline;
+}
+
+span{
+       display:block;
+       height:100px;
+       width:200px;
+       background-color:green;
+}
+
+p{
+       background-color:orange;
+       height: 100px;
+       width:200px;
+       /* display: inline-block; */
+       /* display: none; 
+       visibility: hidden;
+       
+} */
+
+.parent{
+       background-color: orange;
+       height:300px;
+       width:600px;
+       margin-top:300px;
+       margin-left:400px;
+       display:flex;
+       align-items:center;
+       justify-content: space-around;
+}
+
+.child{
+       height:100px;
+       width:100px;
+}
+
+.first{
+       background-color:red;
+}
+.second{
+       background-color:green;
+}
+.third{
+       background-color:aqua;
+}

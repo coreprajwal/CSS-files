@@ -1,0 +1,38 @@
+
+/* Simple Selector */
+
+/* Name tag selector */
+h1{
+       background-color:mediumaquamarine;
+}
+
+/* id selector */
+#first{
+       background-color:Orange;
+}
+#second{
+       color:Blue;
+       background-color: white;
+}
+#third{
+       background-color:Green;
+}
+
+/* class selector */
+.bikes{
+       background-color: red;
+}
+.bikes2{
+       background-color:purple;
+}
+
+/* group selector */
+
+p,h2,h3{
+       background-color: gold;
+}
+
+/* universal selector */
+*{
+       font-size:70px ;
+}

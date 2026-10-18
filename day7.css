@@ -1,0 +1,35 @@
+/* Position: 
+fixed
+absolute
+relative 
+static
+sticky
+*/
+
+section{
+       height:200px;
+       width:200px;
+}
+.class1{
+       background-color: rgb(255, 128, 128);
+       position: relative;
+       bottom: -300px;
+}
+
+.class2{
+       background-color: rgb(128, 255, 128);
+       top:100px
+       /* right:0px; */
+       
+}
+img{
+       position:fixed
+       left 500px;
+}
+
+.class3{
+       background-color: rgb(153, 153, 255);
+}
+body{
+       height:2000px;
+}

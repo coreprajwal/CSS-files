@@ -1,0 +1,21 @@
+/* Background-color & Gradient */
+.bg{
+       height:300px;
+       width:600px;
+       margin-top:250px;
+       margin-left:400px;
+       background-color: orange;
+       background-color: #88FFFF;
+       background-color: rgb(100 200 60);
+       background-color: rgb(130 40 200 / 0.5);
+       background-color: hsl(50, 90%, 30%);
+       background: linear-gradient(orange,white,white,green);
+       background: radial-gradient(pink,yellow,chartreuse,green,blue,maroon,black);
+       background: conic-gradient(white,yellow,plum,maroon,brown,black);
+       background-image:url("");
+       background-repeat:no-repeat;
+       background-size:contain;
+       background-size:cover;
+       background-size:300px 200px;
+       background-position:center;
+}

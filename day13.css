@@ -1,0 +1,39 @@
+/* Box effects */
+.bg{
+       width: 300px;
+       height:200px;
+       background-color:orange;
+       margin-top:300px;
+       margin-left:500px;
+
+       border-style:solid;
+       border-style:double;
+       border-style:dashed;
+       border-style:dotted;
+
+       border-style:ridge;
+       border-style:groove;
+       border-style:inset;
+       border-style:outset;
+
+       border-width:20px;
+       border-color:maroon;
+
+       border: 30px groove brown;
+       border-left: 10px solid green;
+       border-top: none;
+       background-image:url("https://tse3.mm.bing.net/th/id/OIP.F8EwX5v_QlpJK-ksKsfhFwHaE8?r=0&pid=Api&h=220&P=0");
+       background-repeat:norepeat;
+       background-size:cover;
+       background-position:center;
+
+       box-shadow: 10px 7px 20px 2px green;
+       border-radius:20px;
+       /* border-radius:50%; */
+       border-radius: 100px 0 100px 0;
+
+
+
+
+
+}

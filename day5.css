@@ -1,0 +1,25 @@
+/* Attribute selector */
+
+/* 1. Attribute selector */
+a[href]{
+       color: plum;
+}
+
+/* 2. Attribute with value selector */
+img[alt="moon"]{
+       border: 20px solid black;
+}
+
+img[alt="elephant"]{
+       border: 20px solid red;
+}
+
+
+/* Box Modelling: Wraping essential content inside container with the help
+of some css properties such as folows:
+- Content
+- Padding
+- Border
+- Margin
+
+*/

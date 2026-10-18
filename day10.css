@@ -1,0 +1,13 @@
+/* Font-Properties 
+- font-family
+- font-weight
+- font-size
+- font-style
+*/
+
+p{
+       font-family: "Poppins", sans-serif;
+       font-weight: 250;
+       font-style: italic;
+       font-size:25px;
+}
